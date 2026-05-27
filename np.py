@@ -75,3 +75,16 @@ import numpy as np
 # converated_arr = arr3.astype(bool)
 # print(converated_arr)
 # print(converated_arr.dtype)
+
+# arr1 = np.array([1,2,3,4])
+# arr2 = arr1.copy()
+# arr3 = arr1.view()
+
+# arr1[0] = 5
+
+# print(arr1)
+# print(arr2)
+# print(arr3)
+
+# print(arr2.base)
+# print(arr3.base)
