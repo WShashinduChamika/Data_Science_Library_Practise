@@ -55,6 +55,23 @@ import numpy as np
 # #x[start:end:step]
 # print(arr[1::2])
 
-arr2D = np.array([[1,2,3], [4,5,6], [7,8,9]])
-print(arr2D)
-print(arr2D[:1,1:])
+# arr2D = np.array([[1,2,3], [4,5,6], [7,8,9]])
+# print(arr2D)
+# print(arr2D[:1,1:])
+
+
+arr = np.array([1, 2], dtype='f')
+print(arr)
+print(arr.dtype)
+
+arr2 = np.array(['Python', 'Java'])
+print(arr2)
+print(arr2.dtype)
+
+arr3 = np.array([1.2,2,3,4])
+print(arr3)
+print(arr3.dtype)
+
+converated_arr = arr3.astype(bool)
+print(converated_arr)
+print(converated_arr.dtype)
