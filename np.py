@@ -24,17 +24,37 @@ import numpy as np
 # np_array2 = np.array([1,2,3,4], ndmin=4)
 # print(np_array2.ndim)
 
-# Array indexing
-arr = np.array([1,2,3])
-print(arr[1])
+# # Array indexing
+# arr = np.array([1,2,3])
+# print(arr[1])
 
-# Multi dimenational array indexing
-arr_2D = np.array([[1,2,3], [5,6,7], [7,8,9]])
-print(arr_2D[0,1])
+# # Multi dimenational array indexing
+# arr_2D = np.array([[1,2,3], [5,6,7], [7,8,9]])
+# print(arr_2D[0,1])
 
-arr_3D =  np.array([[[1,2],[2,3]],[[4,5],[6,7]]])
-print(arr_3D[0,1,0])
+# arr_3D =  np.array([[[1,2],[2,3]],[[4,5],[6,7]]])
+# print(arr_3D[0,1,0])
 
-# Negative indexing
-new_arr = np.array([1,2,3,4,5])
-print(new_arr[-3])
+# # Negative indexing
+# new_arr = np.array([1,2,3,4,5])
+# print(new_arr[-3])
+
+# # Array Slicing
+# arr = np.array([1,2,3,4,5,6])
+# print(arr)
+
+# #x[start:end]
+# print(arr[1:4])
+
+# print(arr[-5:-1])
+
+# print(arr[2:])
+
+# print(arr[:3])
+
+# #x[start:end:step]
+# print(arr[1::2])
+
+arr2D = np.array([[1,2,3], [4,5,6], [7,8,9]])
+print(arr2D)
+print(arr2D[:1,1:])
