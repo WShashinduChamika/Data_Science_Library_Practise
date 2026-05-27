@@ -88,3 +88,29 @@ import numpy as np
 
 # print(arr2.base)
 # print(arr3.base)
+
+# #Iterating
+# arr = np.array([1,2,3,4])
+
+# for i in arr:
+#     print(i)
+# print()
+
+
+# arr_2D = np.array([[1,2,3], [4,5,6]])
+
+# for i in arr_2D:
+#     for j in i:
+#         print(j)
+# print()
+
+
+# for i in np.nditer(arr_2D[:,::2]):
+#     print(i)
+# print()
+
+# for i,j in np.ndenumerate(arr_2D):
+#     print(i,j)
+
+
+
