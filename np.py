@@ -159,6 +159,24 @@ import numpy as np
 # print(arr2)
 # print(y)
 
+# Join two arrays
+# arr1 = np.array([[1,2,3],[4,5,6]])
+# arr2 = np.array([[5,6,7,],[9,2,3]])
+
+# new_arr = np.concatenate((arr1,arr2), axis=0)
+
+# print(new_arr)
+
+# arr = np.array([1,2,3,4,5,6])
+
+# new_arr = np.array_split(arr,4)
+# print(new_arr)
+
+arr_2D = np.array([[1,2,3],[4,5,6]])
+
+new_arr_2D = np.array_split(arr_2D,2)
+print(new_arr_2D)
+
 
 
 
