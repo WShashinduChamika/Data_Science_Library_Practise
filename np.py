@@ -113,4 +113,53 @@ import numpy as np
 #     print(i,j)
 
 
+# # Shape and Reshape
+
+# # Shape
+# arr_2D = np.array([[1,2,3], [4,5,6]])
+
+# print(arr_2D)
+# print(arr_2D.shape)
+# print()
+
+# arr_3D = np.array([[[1,2,3], [4,5,6]], [[7,8,3], [1,7,6]], [[7,8,3], [1,7,6]]])
+
+# print(arr_3D)
+# print(arr_3D.shape)
+# print()
+
+# arr_5D = np.array([1,2,3,4,5], ndmin=5)
+# print(arr_5D)
+# print(arr_5D.shape)
+# print()
+
+# # Reshape
+# arr = np.array([1,2,3,4,5,6,7,8,9])
+
+# new_arr = arr.reshape(1,9)
+# print(new_arr)
+
+# arr2 = np.array([1,2,3,4,5,6,7,8])
+
+# new_arr2 = arr2.reshape(2,2,2)
+# print(new_arr2)
+
+# arr_2D = np.array([[1,2,3], [4,5,6]])
+# new_arr3 = arr_2D.reshape(-1)
+# print(new_arr3)
+
+# arr = np.array([[1,2], [3,4]])
+
+# x = np.where(arr==3)
+# print(arr)
+# print(x)
+
+# arr2 = np.array([1,2,3,4,5,6])
+# y = np.where(arr%2==0)
+# print(arr2)
+# print(y)
+
+
+
+
 
